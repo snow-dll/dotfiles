@@ -1,0 +1,36 @@
+## zathurarc
+
+
+# settings
+
+# set show-scrollbars true
+set selection-clipboard clipboard
+
+
+# keybinds
+
+map [normal]        <F11> toggle_fullscreen
+map [fullscreen]    <F11> toggle_fullscreen
+map [normal]        <C-r> reload
+map [normal]        <C-r> reload
+
+map [normal]        k scroll down
+map [fullscreen]    k scroll down
+
+map [normal]        j scroll up
+map [fullscreen]    j scroll up
+
+map [normal]        R rotate rotate-cw
+map [fullscreen]    R rotate rotate-cw
+
+map [normal]        <PageUp>   navigate previous
+map [fullscreen]    <PageUp>   navigate previous
+map [normal]        <PageDown> navigate next
+map [fullscreen]    <PageDown> navigate next
+
+map [normal]        u scroll half-up
+map [fullscreen]    u scroll half-up
+map [normal]        d scroll half-down
+map [fullscreen]    d scroll half-down
+
+map [index]         q quit
